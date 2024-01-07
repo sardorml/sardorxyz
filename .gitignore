@@ -1,0 +1,5 @@
+.DS_Store
+.nuxt/
+node_modules/
+yarn.lock
+
