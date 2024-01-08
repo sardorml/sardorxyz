@@ -14,15 +14,16 @@
           v-motion-fade-visible
           class="md:text-xl text-xl text-slate-400 mt-8 md:leading-relaxed"
         >
-          I have 4+ years of experience developing and launching web<br />
+          I have 6+ years of experience developing and launching web<br />
           and mobile applications using
           <span class="text-teal-300">VueJS</span>,
-          <span class="text-teal-300">TypeScript</span>,<br />
+          <span class="text-teal-300">React</span>,
           <span class="text-teal-300">React Native</span>,
+          <span class="text-teal-300">TypeScript</span>,<br />
           <span class="text-teal-300">Node.js</span>, and
-          <span class="text-teal-300">AWS</span>. Led the development of several
-          web applications used by <span class="text-300">10,000</span> -
-          1,000,000+ users.
+          <span class="text-teal-300">Firebase</span>. Led the development of
+          several web applications used by ranging from 10,000 - 1,000,000+
+          users.
         </p>
         <div v-motion-slide-visible-bottom class="relative w-fit mt-8">
           <div class="bg-[#64ffda] absolute inset-0 rounded-md"></div>
