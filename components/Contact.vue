@@ -1,12 +1,12 @@
 <template>
-  <div class="contact pt-28 pb-48" id="contact">
+  <div class="contact pt-28 pb-96" id="contact">
     <h1
-      class="md:text-3xl text-2xl text-gray-200 font-medium flex justify-center items-center mb-28 whitespace-nowrap"
+      class="md:text-3xl text-2xl text-slate-200 font-medium flex justify-center items-center mb-28 whitespace-nowrap"
     >
       <span>Get in touch</span>
     </h1>
     <div class="flex justify-center items-center">
-      <a href="mailto:sardormdl@gmail.com">
+      <a href="mailto:sardormdl@gmail.com" v-motion-roll-visible-left>
         <nuxt-icon
           name="feathericons/mail"
           filled
@@ -18,6 +18,7 @@
         href="https://www.linkedin.com/in/sardorml/"
         target="_blank"
         class="ml-4"
+        v-motion-roll-visible-right
       >
         <nuxt-icon
           name="feathericons/linkedin"

@@ -12,6 +12,8 @@
 
     <!-- <div class="flex border-b-2 border-white w-full mt-10"></div> -->
     <div
+      v-motion-fade-visible
+      :delay="200"
       class="grid grid-cols-1 lg:grid-cols-3 place-content-center gap-3 lg:px-20"
     >
       <div

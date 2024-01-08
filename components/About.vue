@@ -14,11 +14,15 @@
       <!-- about me card -->
       <!-- <div class="bg-white h-80 w-80 rounded-md flex-none"></div> -->
       <img
-        src="/_nuxt/assets/images/hero/portrait.jpeg"
+        v-motion-slide-visible-left
+        src="/images/hero/portrait.jpeg"
         alt="Sardor Mamadaliev"
-        class="w-80 rounded-md shadow-2xl flex-none"
+        class="w-80 rounded-md shadow-2xl flex-none v-motion-roll-visible-bottom mb-10 lg:mb-0"
       />
-      <p class="text-lg font-light text-gray-300 ml-10">
+      <p
+        v-motion-slide-visible-right
+        class="text-lg font-light text-slate-200 ml-10 v-motion-roll-visible-bottom"
+      >
         I'm Sardor, a seasoned software developer with hands-on experience in
         the tech industry. At Wizpace, I spearheaded the development of the
         League of Traders platform, successfully launching it within a tight

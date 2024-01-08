@@ -12,16 +12,21 @@
         >
       </div>
       <div class="items-center text-sm font-light hidden lg:flex">
-        <nuxt-link class="text-gray-300 pl-8" to="#about">About</nuxt-link>
-        <nuxt-link class="text-gray-300 pl-8" to="#skills">Skills</nuxt-link>
-        <nuxt-link class="text-gray-300 pl-8" to="#experience"
+        <nuxt-link class="text-slate-200 pl-8" to="#about">About</nuxt-link>
+        <nuxt-link class="text-slate-200 pl-8" to="#skills">Skills</nuxt-link>
+        <nuxt-link class="text-slate-200 pl-8" to="#experience"
           >Experience</nuxt-link
         >
-        <nuxt-link class="text-gray-300 pl-8" to="#contact">Contact</nuxt-link>
+        <nuxt-link class="text-slate-200 pl-8" to="#contact">Contact</nuxt-link>
 
         <div class="relative ml-8">
           <div class="bg-[#64ffda] absolute inset-0 rounded-md"></div>
-          <a href="/path/to/resume.pdf" download class="relative">
+          <a
+            href="/cv_sardor_2024.pdf"
+            download
+            class="relative"
+            target="_blank"
+          >
             <button
               class="border border-[#64ffda] text-[#64ffda] font-light p-2 rounded-md text-sm transition ease-in duration-150 hover:-translate-x-1 hover:-translate-y-1 bg-[#0a192f]"
             >

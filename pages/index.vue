@@ -4,6 +4,7 @@
   <Skills />
   <Experience />
   <Contact />
+  <Footer />
 </template>
 
 <style scoped></style>

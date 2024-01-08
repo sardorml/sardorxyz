@@ -1,6 +1,9 @@
-# Nuxt 3 Minimal Starter
+# Sardor - Software developer portfolio page
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This is my personal a responsive Vue.js-based portfolio webpage, offering an intuitive and engaging showcase of my
+skills, experiences, and projects. I have used Nuxt and Tailwind libraries in this project.
+
+Website is live at [sardor.xyz](https://sardor.xyz)
 
 ## Setup
 
@@ -37,40 +40,3 @@ yarn dev
 # bun
 bun run dev
 ```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
-# portfolio

@@ -14,6 +14,11 @@
         :class="{ 'lg:space-x-reverse': index % 2 == 0 }"
       >
         <div
+          v-motion
+          :initial="
+            index % 2 == 0 ? { opacity: 0, x: 100 } : { opacity: 0, x: -100 }
+          "
+          :visible="{ opacity: 1, x: 0 }"
           :class="{ 'lg:order-last': index % 2 == 0 }"
           class="group/image relative max-md:order-last max-md:mt-10"
         >
@@ -29,12 +34,17 @@
             />
           </a>
           <img
-            :src="`/_nuxt/assets/images/exp/${experience.image}.png`"
+            :src="`/images/exp/${experience.image}.png`"
             alt="Frontend Development"
             style="object-fit: contain"
           />
         </div>
         <div
+          v-motion
+          :initial="
+            index % 2 == 0 ? { opacity: 0, x: -100 } : { opacity: 0, x: 100 }
+          "
+          :visible="{ opacity: 1, x: 0 }"
           class="flex flex-col justify-between z-20 mt-6 lg:mt-0"
           :class="index % 2 == 0 ? 'items-start' : 'lg:items-end'"
         >

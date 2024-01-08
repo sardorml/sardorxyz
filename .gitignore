@@ -2,4 +2,7 @@
 .nuxt/
 node_modules/
 yarn.lock
-
+.firebase/
+.firebaserc
+.output/
+dist
