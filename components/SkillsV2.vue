@@ -28,13 +28,13 @@
           </div>
 
           <div class="flex flex-col justify-center ml-5 mt-5 lg:mt-0">
-            <p class="text-slate-400 text-lg">
+            <p class="text-slate-400 group-hover:text-slate-300 text-lg">
               {{ item.content }}
             </p>
             <ul class="mt-2 flex flex-wrap">
               <li class="mr-1.5 mt-2" v-for="tool in item.skills">
                 <div
-                  class="flex items-center rounded-full bg-teal-400/10 px-4 py-2 text-md font-medium leading-5 text-slate-200 hover:text-teal-300"
+                  class="flex items-center rounded-full bg-teal-300/5 hover:bg-teal-400/10 px-4 py-2 text-md font-medium leading-5 text-slate-200 hover:text-teal-300"
                 >
                   {{ tool }}
                 </div>
