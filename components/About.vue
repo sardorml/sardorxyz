@@ -21,7 +21,7 @@
       />
       <p
         v-motion-slide-visible-right
-        class="text-lg font-light text-slate-200 ml-10 v-motion-roll-visible-bottom"
+        class="text-lg font-light text-slate-200 lg:ml-10 v-motion-roll-visible-bottom"
       >
         I'm Sardor, a seasoned software developer with hands-on experience in
         the tech industry. At Wizpace, I spearheaded the development of the

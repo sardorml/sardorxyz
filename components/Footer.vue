@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-center pb-16">
+  <div class="flex justify-center pb-20">
     <a
       v-motion-slide-visible-bottom
       class="text-slate-300 flex items-center hover:text-teal-300 text-xl"
