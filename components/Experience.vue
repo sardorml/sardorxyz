@@ -82,11 +82,20 @@ import { ref } from "vue";
 
 const experiences = ref([
   {
+    image: "defilens",
+    title: "Personal Project",
+    description:
+      "I've built a React website displaying DeFi protocol statistics across multiple blockchains. Using React.js, I've created an intuitive interface for users to access real-time metrics, offering a seamless experience for DeFi enthusiasts and investors.",
+    tools: ["React", "Next", "Vercel", "TypeScript", "NodeJs"],
+    link: "https://defilens.xyz",
+    companyLink: "https://defilens.xyz",
+  },
+  {
     image: "lot",
     title: "Wizpace",
     description:
-      "Led development of the League of Traders platform using Vuejs and TypeScript.",
-    tools: ["Vue", "TypeScript", "NodeJs", "Git CI/CD"],
+      "Led development of the League of Traders platform using React and TypeScript at Wizpace.",
+    tools: ["React", "Next", "TypeScript", "NodeJs", "Git CI/CD"],
     link: "https://leagueoftraders.io",
     companyLink: "https://wizpace.com",
   },
@@ -94,8 +103,8 @@ const experiences = ref([
     image: "uzumbank",
     title: "Tune Consulting",
     description:
-      "Developed uzumbank.uz, a banking app, with a focus on efficiency using Vue.js and Vuex.",
-    tools: ["Vue", "TypeScript", "NodeJs", "Git CI/CD"],
+      "Developed uzumbank.uz, a banking app, with a focus on efficiency using React at Tune Consulting.",
+    tools: ["React", "TypeScript", "NodeJs", "Git CI/CD"],
     link: "https://uzumbank.uz",
     companyLink: "https://tuneconsulting.net/",
   },
@@ -103,7 +112,7 @@ const experiences = ref([
     image: "metamui",
     title: "MetaMUI",
     description:
-      "Maintained and improved features of a mobile crypto wallet app using React Native, implemented a wallet recovery tool with Node.js, and enhanced security for Firebase database.",
+      "At MetaMui I maintained and improved features of a mobile crypto wallet app using React Native, implemented a wallet recovery tool with Node.js, and enhanced security for Firebase database.",
     tools: ["React Native", "TypeScript", "NodeJs", "Firebase"],
     link: "https://sovereignwallet.network",
     companyLink: "https://sovereignwallet.network",
@@ -112,19 +121,10 @@ const experiences = ref([
     image: "xailand",
     title: "Xailand",
     description:
-      "Contributed to building a dashboard for an AI appraisal platform, catering to realtors and land buyers.",
+      "At Xailand I contributed to building a dashboard for an AI appraisal platform, catering to realtors and land buyers.",
     tools: ["Vue", "TypeScript", "NodeJs", "Git CI/CD", "AWS"],
     link: "https://xai.land",
     companyLink: "https://xai.land",
-  },
-  {
-    image: "sucartv",
-    title: "CID Auto",
-    description:
-      "Developed a listings website for used cars using Vue.js, created an API with Node.js/Express, and designed an AWS cloud function for video files.",
-    tools: ["Vue", "TypeScript", "NodeJs", "AWS"],
-    link: "https://tracxn.com/d/companies/cid-auto/__Qpr_vfJGZOtCh56Mv6lRVNYFXbwckLOIMxdTglPmodA",
-    companyLink: "https://www.crunchbase.com/organization/cid-auto",
   },
 ]);
 </script>

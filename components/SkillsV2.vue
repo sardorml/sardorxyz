@@ -56,11 +56,11 @@ const services = ref([
       "I will translate your designs into high quality code, using the latest technologies.",
     icon: "_frontend",
     skills: [
-      "Vue",
-      "Nuxt",
       "React",
       "Next",
       "React Native",
+      "Vue",
+      "Nuxt",
       "Tailwind",
       "HTML/CSS",
     ],
