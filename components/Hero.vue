@@ -54,7 +54,7 @@
           >
             <div class="rounded-full relative overflow-hidden">
               <img
-                src="/images/hero/portrait2.jpeg"
+                src="/images/hero/portrait.JPG"
                 alt="Hero Image"
                 style="object-fit: contain"
                 class="w-full h-full"
