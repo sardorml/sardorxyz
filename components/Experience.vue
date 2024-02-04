@@ -112,7 +112,7 @@ const experiences = ref([
     image: "metamui",
     title: "MetaMUI",
     description:
-      "At MetaMui I maintained and improved features of a mobile crypto wallet app using React Native, implemented a wallet recovery tool with Node.js, and enhanced security for Firebase database.",
+      "Developed a crypto currency wallet at MetaMui with capabilities such as sending and receiving various cryptocurrencies, messaging and sending crypto coins to friends. All using React Native.",
     tools: ["React Native", "TypeScript", "NodeJs", "Firebase"],
     link: "https://sovereignwallet.network",
     companyLink: "https://sovereignwallet.network",
