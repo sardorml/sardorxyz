@@ -24,14 +24,15 @@
         class="text-lg font-light text-slate-200 lg:ml-10 v-motion-roll-visible-bottom"
       >
         I'm Sardor, a seasoned software developer with hands-on experience in
-        the tech industry. At Wizpace, I spearheaded the development of the
+        the tech industry. At Wizpace, I led the development of the
         leagueoftraders.io, successfully launching it within a tight timeframe,
-        now serving over 10,000 traders globally. Earlier at Tune Consulting, I
-        contributed to the creation of uzumbank.uz, a web banking app, built by
-        Vuejs now used by millions of user nationwide. My journey also includes
-        roles at Meta MUI, enhancing a mobile crypto wallet app, and CID Auto,
-        where I developed a listings website for used cars and more... Let's
-        connect and explore how I can contribute to your next project.
+        now serving over 50,000 traders globally. Earlier at Meta MUI, I created
+        a mobile crypto wallet app with capabilites such as messaging,
+        send/receiving crypto coins. My journey also includes roles Tune
+        Consulting, I contributed to the creation of uzumbank.uz, a web banking
+        app, built with React and CID Auto, where I developed a listings website
+        for used cars and more... Let's connect and explore how I can contribute
+        to your next project.
       </p>
     </div>
   </div>
