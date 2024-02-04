@@ -15,7 +15,7 @@
       <!-- <div class="bg-white h-80 w-80 rounded-md flex-none"></div> -->
       <img
         v-motion-slide-visible-left
-        src="/images/hero/portrait.JPG"
+        src="/images/hero/portrait.jpg"
         alt="Sardor Mamadaliev"
         class="w-80 rounded-md shadow-2xl flex-none v-motion-roll-visible-bottom mb-10 lg:mb-0"
       />
